@@ -1,32 +1,3 @@
-# QuadDB API Wrapper
-
-Python wrapper for the Quadrium-DB API.
-
-# Installation
-## Easy Way
-### Install the Package:
-Use pip to install the package. This command tells pip to install the package defined by the setup.py file in the current directory.
-```
-pip install git+https://github.com/CyberDefenseEd/quaddb.py
-```
-## Manual
-### Clone or Download the Repository:
-You can clone the repository or download the package and extract it to your desired location.
-```bash
-https://github.com/CyberDefenseEd/quaddb.py
-```
-### Navigate to the Package Directory:
-Change to the directory containing the setup.py file.
-```
-cd quaddb.py
-```
-### Install the Package:
-Use pip to install the package. This command tells pip to install the package defined by the setup.py file in the current directory.
-```
-pip install git+https://github.com/CyberDefenseEd/quaddb.py
-```
-## Usage
-```py
 from quad_db_api import QuadDBClient
 
 client = QuadDBClient(base_url="http://localhost:9010")
@@ -67,4 +38,3 @@ print(updates)
 # Get collections
 collections = client.get_collections()
 print(collections)
-```
