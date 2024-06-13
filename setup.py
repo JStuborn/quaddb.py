@@ -1,5 +1,3 @@
-# setup.py
-
 from setuptools import setup, find_packages
 
 setup(
@@ -8,7 +6,8 @@ setup(
     description='Python wrapper for the QuadDB API',
     author='CyberDefenseEd',
     url='https://github.com/CyberDefenseEd/qdb.py',
-    packages=find_packages(),
+    package_dir={'': 'src'},
+    packages=find_packages(where='src'),
     install_requires=[
         'requests',
     ],
