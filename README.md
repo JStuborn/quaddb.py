@@ -26,7 +26,7 @@ pip install git+https://github.com/CyberDefenseEd/quaddb.py
 ```
 ## Usage
 ```py
-from quad_db_api import QuadDBClient
+from quaddb import QuadDBClient
 
 client = QuadDBClient(base_url="http://localhost:9010")
 
