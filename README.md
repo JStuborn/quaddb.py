@@ -2,14 +2,13 @@
 
 Python wrapper for the Quadrium-DB API.
 
-# Installation
-## Easy Way
+# Installation - Easy Way
 ### Install the Package:
 Use pip to install the package. This command tells pip to install the package defined by the setup.py file in the current directory.
 ```
 pip install git+https://github.com/CyberDefenseEd/quaddb.py
 ```
-## Manual
+# Installation - Manual
 ### Clone or Download the Repository:
 You can clone the repository or download the package and extract it to your desired location.
 ```bash
